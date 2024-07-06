@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: "El Messiri", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   background-color: #eee;
+   form , div {
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+      margin: 20px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+}
+input {
+   font-family: "El Messiri", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+table{
+   
+   thead{
+      background-color: #eee;
+   }
+   border-spacing: 0;
+   tr{
+      td{
+         border: 1px solid #ddd;
+         width: auto;
+         padding: 7px;
+         text-align: center;
+      }
+   }
+}
